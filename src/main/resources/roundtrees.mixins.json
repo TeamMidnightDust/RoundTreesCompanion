@@ -1,0 +1,12 @@
+{
+  "required": true,
+  "package": "eu.midnightdust.roundtrees.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "MixinLogBlock",
+    "MixinSignBlockEntityRenderer"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

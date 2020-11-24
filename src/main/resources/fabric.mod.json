@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "roundtrees",
+  "version": "${version}",
+
+  "name": "Round Trees",
+  "description": "Makes the Round Trees resourcepack better by changing the log's bounding box and fixing signs on logs.",
+  "authors": [
+    "Motschen",
+    "TeamMidnightDust"
+  ],
+  "contact": {
+    "homepage": "https://www.midnightdust.eu/",
+    "sources": "https://github.com/TeamMidnightDust/RoundTrees",
+    "issues": "https://github.com/TeamMidnightDust/RoundTrees/issues"
+  },
+
+  "license": "MIT",
+  "icon": "assets/roundtrees/icon.png",
+
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "eu.midnightdust.roundtrees.RoundTreesClient"
+    ],
+    "modmenu": [
+      "eu.midnightdust.roundtrees.config.ModMenuIntegration"
+    ]
+  },
+
+  "mixins": [
+    "roundtrees.mixins.json"
+  ],
+
+  "depends": {
+    "fabric": "*"
+  }
+}
